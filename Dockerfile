@@ -10,11 +10,11 @@ WORKDIR /opt/presentation
 RUN npm install -g grunt-cli
 RUN npm install
 
-ADD index.html /opt/presentation/index.html
+ADD slides /opt/presentation/slides/
 ADD images /opt/presentation/images/
 ADD videos /opt/presentation/videos/
-
-WORKDIR /opt/presentation
+RUN rm index.html
+RUN ln -s slides/index.html index.html
 
 EXPOSE 8000
 
