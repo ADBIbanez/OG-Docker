@@ -12,7 +12,7 @@ RUN npm install
 
 ADD index.html /opt/presentation/index.html
 ADD images /opt/presentation/images/
-ADD slides /opt/presentation/slides/
+ADD videos /opt/presentation/videos/
 
 WORKDIR /opt/presentation
 
