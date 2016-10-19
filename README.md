@@ -1,4 +1,5 @@
 # OG-Docker
 Docker for Developers: a containerized presentation
 
-This is an implementation of https://kartar.net/2014/05/presenting-with-docker/
+build with: `docker build . -t presentation`
+run with: `docker run -p 8000:8000 presentation`
