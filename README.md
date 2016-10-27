@@ -15,6 +15,10 @@ when in dev mode, go into container and manually `ln -s slides/index.html index.
   - Base images, always the same, always up to date
   - Dockerfile -> Image -> Container
   - (is it buzzword-complete?)
+    - micro Services
+    - continuous integration
+    - CaaS: Containers-as-a-service
+    - 'always-on' philosophy
   - Services defining containers (docker compose)
 2. Docker Roadshow: a brief report
   - HPE
